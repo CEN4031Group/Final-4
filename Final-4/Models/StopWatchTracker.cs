@@ -20,7 +20,7 @@ namespace Final_4.Models
 
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]        
-        public int Id { get; set; }
+        public int Id { get; private set; }
         public string ElapsedTime { get; private set; }
 
         public string TimeCreated
