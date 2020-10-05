@@ -18,6 +18,5 @@ namespace Final_4.DataLayer
         {
             optionsBuilder.UseSqlite($@"Data Source=StopWatchTracker.db");
         }
-        //}
     }
 }

@@ -8,14 +8,14 @@ namespace Final_4.Models
     {
         public StopWatchTracker(DateTime _elapsedTime)
         {
-            ElapsedTime = _elapsedTime.ToString("dd/MM/yyyy hh:mm:ss.fff");
-            TimeCreated = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss.fff");
+            ElapsedTime = _elapsedTime.ToString("dd/MM/yyyy hh:mm:ss");
+            TimeCreated = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss");
         }
 
         public StopWatchTracker()
         {
-            ElapsedTime = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss.fff");
-            TimeCreated = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss.fff");
+            ElapsedTime = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss");
+            TimeCreated = DateTime.Now.ToString("dd/MM/yyyy hh:mm:ss");
         }
 
         [Key]
